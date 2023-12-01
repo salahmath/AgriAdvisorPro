@@ -1,0 +1,46 @@
+name: app_commerce
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^4.9.0
+  firebase_core: ^2.15.1
+  cloud_firestore: ^4.9.1
+  flutter_screenutil: ^5.9.0
+  fluttertoast: ^8.2.2
+  dots_indicator: ^3.0.0
+  carousel_slider: ^4.2.1
+  eva_icons_flutter: ^3.1.0
+  flutter_stripe: ^9.4.0
+  http: ^1.1.0
+
+  flare_flutter: ^3.0.2
+  font_awesome_flutter: ^10.5.0
+  flutter_masked_text2: ^0.9.1
+  webview_flutter: ^4.2.4
+  firebase_analytics: ^10.5.0
+  firebase_storage: ^11.2.7
+  
+  image_picker: ^1.0.4
+  firebase_database: ^10.2.6
+  google_fonts: ^6.1.0
+  
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  assets:
+    - images/
+    
+uses-material-design: true
+
+
